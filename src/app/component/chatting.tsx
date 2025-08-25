@@ -4,8 +4,8 @@ type textProps = {
 
 export default function Chatting({ text }: textProps) {
   return (
-    <div className="">
-      <div className="">
+    <div>
+      <div>
         <img
           src="/chating.svg"
           alt="채팅"
