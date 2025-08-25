@@ -12,8 +12,9 @@ export default function Chatting({ text }: textProps) {
           className="absolute top-[80%] w-[70%] "
         />
         <div
-          className="absolute z-10 top-[91%] left-[21%]
-                   whitespace-pre-wrap text-center"
+          className="absolute z-10 top-[91%] left-[18%]
+                   whitespace-pre-wrap text-center
+                   text-[clamp(0.75rem,4vw,1.25rem)]"
         >
           {text}
         </div>
